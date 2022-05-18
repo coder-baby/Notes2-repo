@@ -57,7 +57,7 @@ body{
     left: 0;
     background: rgba(0, 0, 0, 0.3);
     z-index: 1;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .word{
     width: 400px;
@@ -69,6 +69,10 @@ body{
     top: 5em;
     /* margin: 10% 40%; */
     border-radius: 10px;
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
 }
 .word header{
     display: flex;
