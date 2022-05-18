@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="note2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <section class="cont">
+
+        <div class="item first">
+            <button class="add">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <p>add new note</p>
+        </div>
+
+        <article class="modal"></article>
+       
+    </section>
+
+    <section class="dark"></section>
+
+    <section class="word">
+        <header>
+            <h3>add a new note</h3>
+            <button class="rem">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+        </header>
+        <div class="dem"></div>
+
+        <form>
+            <div class="title">
+                <label for="title">title</label>
+                <br>
+                <input type="text" name="title" id="title">
+            </div>
+
+            <div class="desc">
+                <label for="desc">description</label>
+                <br>
+                <textarea name="" id="desc" cols="30" rows="5"></textarea>
+               
+            </div>
+            <button type="submit">add note</button>
+        </form>
+
+    </section>
+</body>
+</html>

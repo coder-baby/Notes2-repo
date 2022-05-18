@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500;800&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.cont{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(121, 121, 199) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.add{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px dotted #2b8bb1;
+    background-color: transparent;
+}
+.fa-plus{
+    font-size: 30px;
+    color: #2b8bb1;
+}
+.cont div{
+    margin: 10px;
+    width: 250px;
+    height: 230px;
+    background-color: white;
+    border-radius: 5px;
+}
+.cont .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.first p{
+    color: #2b8bb1;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.dark{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    /* visibility: hidden; */
+}
+.word{
+    min-width: 350px;
+    min-height: 400px;
+    background: white;
+    position: absolute;
+    z-index: 2;
+    /* left: 30%;
+    top: 30%; */
+    margin: 10% 40%;
+}
+.word header{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    text-transform: capitalize;
+    height: 50px;
+    align-items: center;
+}
+.dem{
+    width: 100%;
+    height: 2px;
+    background-color: #c8e2ec;
+}
+.rem{
+    border: none;
+}
+label{
+    text-transform: capitalize;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    
+}
+button[type='submit']{
+    width: 300px;
+    background-color: #2b8bb1;
+    color: white;
+    border: none;
+    padding: 6px;
+    margin: 0 50px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    
+}
+form input{
+    border: 2px solid #c8e2ec;
+}
+form div{
+    margin: 5px 50px;
+}
+textarea{
+    border: 2px solid #c8e2ec;
+}
+#title{
+    width: 300px;
+    height: 50px;
+}
+@media screen and (max-width:800px){
+    .word{
+        position: absolute;
+        z-index: 2;
+        /* left: 30%;
+        top: 30%; */
+        margin: 5% 10%; 
+    }
+}
